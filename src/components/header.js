@@ -6,7 +6,7 @@ const Header = () => {
 
         <nav className="navbar is-white is-fixed-top">
            <div className="navbar-brand">
-             <div className="navbar-item">Gatsby Sass Starter</div>
+             <div className="navbar-item">Gatsby Paaatterns Blog Starter</div>
 
              <button className="navbar-burger burger is-white" aria-label="menu" aria-expanded="false" data-target="navbarMain">
                <span aria-hidden="true"></span>
