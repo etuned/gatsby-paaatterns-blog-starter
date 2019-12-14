@@ -1,0 +1,53 @@
+@charset "utf-8";
+// Set variables here
+
+// Hero Section with Paaatterns settings
+//---------------------------------------
+  
+  // Change the colors to your choosing.
+  $gradient1: #e66465;
+  $gradient2: #9198e5;
+  $color-overlay: linear-gradient(rgba(0,0,0,.3),rgba(250,255,255,.3));
+
+  // List of all available Paaatterns settings 
+  $img-clarence-gradient: $color-overlay,url(../img/paaatterns/Clarence.svg), linear-gradient($gradient1, $gradient2);
+  $img-doubs-gradient: $color-overlay,url(../img/paaatterns/Doubs.svg), linear-gradient($gradient1, $gradient2);
+  $img-hinterrhein-gradient: $color-overlay,url(../img/paaatterns/Hinterrhein.svg), linear-gradient($gradient1, $gradient2);
+  $img-inn-gradient: $color-overlay,url(../img/paaatterns/Inn.svg), linear-gradient($gradient1, $gradient2);
+  $img-kander-gradient: $color-overlay,url(../img/paaatterns/Kander.svg), linear-gradient($gradient1, $gradient2);
+  $img-linth-gradient: $color-overlay,url(../img/paaatterns/Linth.svg), linear-gradient($gradient1, $gradient2);
+  $img-mataura-gradient: $color-overlay,url(../img/paaatterns/Mataura.svg), linear-gradient($gradient1, $gradient2);
+  $img-mohaka-gradient: $color-overlay,url(../img/paaatterns/Mohaka.svg), linear-gradient($gradient1, $gradient2);
+  $img-ngaruroro-gradient: $color-overlay,url(../img/paaatterns/Ngaruroro.svg), linear-gradient($gradient1, $gradient2);
+  $img-oreti-gradient: $color-overlay,url(../img/paaatterns/Oreti.svg), linear-gradient($gradient1, $gradient2);
+  $img-rangitikei-gradient: $color-overlay,url(../img/paaatterns/Rangitikei.svg), linear-gradient($gradient1, $gradient2);
+  $img-reuss-gradient: $color-overlay,url(../img/paaatterns/Reuss.svg), linear-gradient($gradient1, $gradient2);
+  $img-rhône-gradient: $color-overlay,url(../img/paaatterns/Rhône.svg), linear-gradient($gradient1, $gradient2);
+  $img-taieri-gradient: $color-overlay,url(../img/paaatterns/Taieri.svg), linear-gradient($gradient1, $gradient2);
+  $img-thur-gradient: $color-overlay,url(../img/paaatterns/Thur.svg), linear-gradient($gradient1, $gradient2);
+  $img-vorderrhein-gradient: $color-overlay,url(../img/paaatterns/Vorderrhein.svg), linear-gradient($gradient1, $gradient2);
+  $img-waiau-gradient: $color-overlay,url(../img/paaatterns/Waiau.svg), linear-gradient($gradient1, $gradient2);
+  $img-waihou-gradient: $color-overlay,url(../img/paaatterns/Waihou.svg), linear-gradient($gradient1, $gradient2);
+  $img-waimakariri-gradient: $color-overlay,url(../img/paaatterns/Waimakariri.svg), linear-gradient($gradient1, $gradient2);
+  $img-wairau-gradient: $color-overlay,url(../img/paaatterns/Wairau.svg), linear-gradient($gradient1, $gradient2);
+  $img-whangaehu-gradient: $color-overlay,url(../img/paaatterns/Whangaehu.svg), linear-gradient($gradient1, $gradient2);
+  $img-aare-gradient: $color-overlay,url(../img/paaatterns/Aare.svg), linear-gradient($gradient1, $gradient2);
+
+// Replace the background value with a selection from above.
+
+.hero-img-inner {
+    background: $img-waihou-gradient !important;
+    background-size: cover;
+    background-position: top;
+    margin-top: 25px;
+}
+.hero-img-main {
+    background: $img-doubs-gradient;
+    background-size: cover;
+    background-position: top;
+}
+.text-shadow {
+    text-shadow: #000 1px 0 5px;
+  }
+
+@import "../../../node_modules/bulma/bulma.sass";
