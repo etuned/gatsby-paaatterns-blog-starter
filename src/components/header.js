@@ -4,41 +4,19 @@ import { Link } from 'gatsby'
 const Header = () => {
     return (
 
-        <nav className="navbar is-white is-fixed-top">
-           <div className="navbar-brand">
-             <div className="navbar-item">Gatsby Paaatterns Blog Starter</div>
+      <header className="header">
+      <Link className="logo" to="/">Gatsby Paaatterns Blog Starter</Link>
+  <input className="menu-btn" type="checkbox" id="menu-btn" />
+  <label className="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul className="menu">
+    <li><Link to="/">Home</Link></li>
+    <li><Link to="/blog">Blog</Link></li>
+    <li><Link to="/about">About</Link></li>
+    <li><Link to="/portfolio">Portfolio</Link></li>
+    <li><Link to="/contact">Contact</Link></li>
+  </ul>
+</header>
 
-             <button className="navbar-burger burger is-white" aria-label="menu" aria-expanded="false" data-target="navbarMain">
-               <span aria-hidden="true"></span>
-               <span aria-hidden="true"></span>
-               <span aria-hidden="true"></span>
-             </button>
-           </div>
-
-  <div id="navbarMain" className="navbar-menu">
-    <div className="navbar-start">
-      <Link to="/" className="navbar-item">
-        Home
-      </Link>
-
-      <Link to="/about" className="navbar-item">
-        About
-      </Link>
-    
-      <Link to="/blog" className="navbar-item">
-        Blog
-      </Link>
-
-      <Link to="/portfolio" className="navbar-item">
-        Portfolio
-      </Link>
-
-      <Link to="/contact" className="navbar-item">
-      Contact
-      </Link>
-    </div>
-  </div>
-</nav>
     )
 }
 
