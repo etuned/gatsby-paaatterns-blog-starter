@@ -11,8 +11,8 @@
 //---------------------------------------
   
   // Change the colors to your choosing.
-  $gradient1: #e66465;
-  $gradient2: #9198e5;
+  $gradient1: #582780;
+  $gradient2: #9828b4;
   $color-overlay: linear-gradient(rgba(0,0,0,.3),rgba(250,255,255,.3));
 
   // List of all available Paaatterns settings 
@@ -42,18 +42,25 @@
 // Replace the background value with a selection from above.
 
 .hero-img-inner {
+  height: 200px;
     background: $img-inn-gradient !important;
-    background-size: cover;
-    background-position: top;
+    background-attachment: fixed !important;
+    background-position: top !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
     .hero-body, .container {
       margin-top: 25px;
     }
     
 }
 .hero-img-main {
+  height: 100%;
     background: $img-doubs-gradient;
     background-size: cover;
     background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .text-shadow {
